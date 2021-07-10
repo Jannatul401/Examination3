@@ -1,0 +1,133 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?cc4f584163075820d086f6c9da749914") format("truetype"),
+url("./flaticon.woff?cc4f584163075820d086f6c9da749914") format("woff"),
+url("./flaticon.woff2?cc4f584163075820d086f6c9da749914") format("woff2"),
+url("./flaticon.eot?cc4f584163075820d086f6c9da749914#iefix") format("embedded-opentype"),
+url("./flaticon.svg?cc4f584163075820d086f6c9da749914#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "calendar-interface-symbol-tool": "\f101",
+    "comment": "\f102",
+    "compliance": "\f103",
+    "dollars-money-bag-with-a-clock": "\f104",
+    "down-chevron-1": "\f105",
+    "down-chevron": "\f106",
+    "favorite": "\f107",
+    "insurance": "\f108",
+    "left-chevron-1": "\f109",
+    "left-chevron": "\f10a",
+    "loupe": "\f10b",
+    "mail-send": "\f10c",
+    "marketing-strategy": "\f10d",
+    "medal-of-award": "\f10e",
+    "paper-plane": "\f10f",
+    "phone-call-1": "\f110",
+    "phone-call": "\f111",
+    "placeholder": "\f112",
+    "right-chevron-1": "\f113",
+    "right-chevron": "\f114",
+    "right-quotation-mark": "\f115",
+    "star": "\f116",
+    "strategy-in-a-labyrinth": "\f117",
+    "trend": "\f118",
+    "up-arrow": "\f119",
+    "user": "\f11a",
+    "wall-clock": "\f11b",
+);
+
+.flaticon-calendar-interface-symbol-tool:before {
+    content: map-get($flaticon-map, "calendar-interface-symbol-tool");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-compliance:before {
+    content: map-get($flaticon-map, "compliance");
+}
+.flaticon-dollars-money-bag-with-a-clock:before {
+    content: map-get($flaticon-map, "dollars-money-bag-with-a-clock");
+}
+.flaticon-down-chevron-1:before {
+    content: map-get($flaticon-map, "down-chevron-1");
+}
+.flaticon-down-chevron:before {
+    content: map-get($flaticon-map, "down-chevron");
+}
+.flaticon-favorite:before {
+    content: map-get($flaticon-map, "favorite");
+}
+.flaticon-insurance:before {
+    content: map-get($flaticon-map, "insurance");
+}
+.flaticon-left-chevron-1:before {
+    content: map-get($flaticon-map, "left-chevron-1");
+}
+.flaticon-left-chevron:before {
+    content: map-get($flaticon-map, "left-chevron");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-mail-send:before {
+    content: map-get($flaticon-map, "mail-send");
+}
+.flaticon-marketing-strategy:before {
+    content: map-get($flaticon-map, "marketing-strategy");
+}
+.flaticon-medal-of-award:before {
+    content: map-get($flaticon-map, "medal-of-award");
+}
+.flaticon-paper-plane:before {
+    content: map-get($flaticon-map, "paper-plane");
+}
+.flaticon-phone-call-1:before {
+    content: map-get($flaticon-map, "phone-call-1");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-right-chevron-1:before {
+    content: map-get($flaticon-map, "right-chevron-1");
+}
+.flaticon-right-chevron:before {
+    content: map-get($flaticon-map, "right-chevron");
+}
+.flaticon-right-quotation-mark:before {
+    content: map-get($flaticon-map, "right-quotation-mark");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-strategy-in-a-labyrinth:before {
+    content: map-get($flaticon-map, "strategy-in-a-labyrinth");
+}
+.flaticon-trend:before {
+    content: map-get($flaticon-map, "trend");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon-map, "up-arrow");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-wall-clock:before {
+    content: map-get($flaticon-map, "wall-clock");
+}
